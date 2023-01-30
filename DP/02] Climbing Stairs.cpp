@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/climbing-stairs/
 
 
-// Recursion   TC = O(2^N)  SC = O(N) (for a recursive series)
+// Recursion   TC --> O(2^N)  SC --> O(N) (for a recursive series)
 
 class Solution {
 public:
@@ -12,7 +12,7 @@ public:
 };
 
 
-// Memoization  TC --> O(n)       SC --> O(n) + O(n)  ---> (Recursion Stack Space and Array)
+// Memoization    TC --> O(N)       SC --> O(N) + O(N)  ---> (Recursion Stack Space and Array)
 
 class Solution {
 public:
@@ -28,7 +28,7 @@ public:
 };
 
 
-// Tabulation   TC --> O(n)       SC --> O(1)
+// Tabulation   TC --> O(N)       SC --> O(1)
 
 class Solution {
 public:
