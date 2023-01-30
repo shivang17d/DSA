@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/fibonacci-number/
 
 
-// Recursion  TC = O(2^N)  SC = O(N)
+// Recursion  TC = O(2^N)  SC = O(N) (for a recursive series)
 
 class Solution {
 public:
