@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/fibonacci-number/
 
 
-// Recursion  TC = O(2^N)  SC = O(N) (for a recursive series)
+// Recursion  TC --> O(2^N)  SC --> O(N) (for a recursive series)
 
 class Solution {
 public:
@@ -11,7 +11,7 @@ public:
     }
 };
 
-// Memoization (Top-Down Approach) TC --> O(n)       SC --> O(n) + O(n)  ---> (Recursion Stack Space and Array)
+// Memoization (Top-Down Approach) TC --> O(N)       SC --> O(N) + O(N)  ---> (Recursion Stack Space and Array)
 
 class Solution {
 public:
@@ -26,7 +26,7 @@ public:
     }
 };
 
-// Tabulation (Bottom-Up Approach)   TC --> O(n)       SC --> O(1)
+// Tabulation (Bottom-Up Approach)   TC --> O(N)       SC --> O(1)
 
 class Solution {
 public:
